@@ -6,4 +6,5 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  base: 'https://chesebas.github.io/Nivel_2-Practica-1'
 })
